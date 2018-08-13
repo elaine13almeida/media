@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+img{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:480px){
+    body{
+        background-color: blue;
+        }
+    img{
+        max-width: 80%;
+        }
+    h1{
+        color: white;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:780px){
+    body{
+        background-color: blueviolet;
+    }
+    .box{
+        display: none;
+    }
+}
